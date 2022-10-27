@@ -1,0 +1,20 @@
+body{
+  background-color:white;
+
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lockerPin{
+  background-color: rgb(78, 78, 80);
+  width:300px;
+  border-radius: 14px;
+}
+.row{
+  display:flex;
+}
+
+
+

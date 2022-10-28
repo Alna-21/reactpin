@@ -9,7 +9,7 @@ const App=()=> {
 
 
   const addTotext=(val)=>{
-    setText((text)=> [...text,val+""]);
+    setText((text)=>text+val);
 
   };
   const resetInput=()=>{
@@ -17,9 +17,9 @@ const App=()=> {
   
   };
  
-  const enterOutput=(text)=>{
+  const enterOutput=()=>{
    
- if (setText==1234){
+ if (textt==1234){
         alert("Your are enter correct pin");
        }else{
         alert("Wrong Pin")
